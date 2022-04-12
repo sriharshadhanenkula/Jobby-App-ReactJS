@@ -1,0 +1,116 @@
+.allJobs-main-container {
+  background-color: #000000;
+  min-height: 100vh;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.allJobs-container {
+  display: flex;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.all-jobs-profile-container {
+  width: 20%;
+}
+.allJobs-jobsAndSearch-container {
+  width: 80%;
+  padding-left: 30px;
+}
+.allJob-profile-data-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 15px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  height: 250px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+.allJob-profile-username {
+  color: #4f46e5;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+.allJob-profile-user-description {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Roboto;
+}
+.allJobs-profile-heading {
+  font-family: Roboto;
+  color: #f1f5f9;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.allJobs-profile-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.allJob-profile-list-item {
+  margin-bottom: 10px;
+}
+.allJob-profile-label {
+  font-family: Roboto;
+  color: #f1f5f9;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.jobList-form-container {
+  border: 1px solid #7e858e;
+  width: fit-content;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.jobList-searchInput {
+  width: 350px;
+  height: 30px;
+  padding: 5px;
+  padding-left: 8px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-family: Roboto;
+}
+.jobList-search-button {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  background-color: #202020;
+  border: none;
+  color: white;
+}
+.no-object-found-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
+.Home-findJob-Button {
+  background-color: #6366f1;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.failure-heading {
+  color: white;
+  font-family: Roboto;
+}
+.failure-paragraph {
+  color: #cbd5e1;
+  font-family: Roboto;
+}

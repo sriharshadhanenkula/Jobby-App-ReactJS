@@ -1,0 +1,23 @@
+.notFound-container {
+  background-color: #000000;
+  height: 100vh;
+}
+.notFound-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  height: 92vh;
+}
+.not-found-image {
+  height: 350px;
+}
+.not-found-heading {
+  color: white;
+  font-family: Roboto;
+}
+.not-found-paragraph {
+  color: white;
+  font-family: Roboto;
+}
